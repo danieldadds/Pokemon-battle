@@ -34,18 +34,26 @@
   padding-left: 1rem;
 }
 
+.OpStats {
+  background-color: white;
+  width: 120px;
+  transform: translate(350px, 0px);
+  border: 2px solid black;
+  padding-left: 1rem;
+}
+
 .player-pokemon {
   height: 200px;
   width: 200px;
 
-  transform: translate(160px, 160px);
+  transform: translate(140px, 50px);
 }
 
 .op-pokemon {
   height: 200px;
   width: 200px;
   /* background-color: red; */
-  background-image: url("op-pokemon/snorlax.gif");
-  transform: translate(520px, -200px);
+  /* background-image: url("op-pokemon/snorlax.gif"); */
+  transform: translate(500px, -300px);
   background-size: cover;
 }
