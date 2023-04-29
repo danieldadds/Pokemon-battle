@@ -33,3 +33,19 @@
   border: 2px solid black;
   padding-left: 1rem;
 }
+
+.player-pokemon {
+  height: 200px;
+  width: 200px;
+
+  transform: translate(160px, 160px);
+}
+
+.op-pokemon {
+  height: 200px;
+  width: 200px;
+  /* background-color: red; */
+  background-image: url("op-pokemon/snorlax.gif");
+  transform: translate(520px, -200px);
+  background-size: cover;
+}
