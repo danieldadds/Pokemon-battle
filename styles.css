@@ -1,0 +1,35 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* gamescreen */
+
+.gamecontainer {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+}
+.gamescreen {
+  height: 500px;
+  background-image: url(battlescreen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gamemenu {
+  border-top: 1px solid black;
+  height: 100px;
+}
+
+.playerStats {
+  background-color: white;
+  width: 120px;
+  transform: translate(10px, 370px);
+  border: 2px solid black;
+  padding-left: 1rem;
+}
